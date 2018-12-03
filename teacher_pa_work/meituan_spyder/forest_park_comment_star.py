@@ -47,7 +47,7 @@ if __name__ == "__main__":
     df = return_dict["tag_count_df"]
     df["count"] = df["count"].apply(np.int)
 
-
+    print(df)
     # # 对标签数据进行可视化处理
     # fig, ax = plt.subplots()
     # df.plot(kind="barh", x="tag", y="count", ax=ax)
